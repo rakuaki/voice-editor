@@ -14,7 +14,7 @@ JSONEditor.defaults.languages.zh = {
 };
 
 const defaultSchema = {
-    'title': 'Root',
+    'title': '根目录',
     'type': 'object',
     'required': [
         'voices',
@@ -23,7 +23,7 @@ const defaultSchema = {
         'voices': {
             'type': 'array',
             'format': 'tabs',
-            'title': 'Voices',
+            'title': '音频',
             'uniqueItems': true,
             'items': {
                 'type': 'object',
